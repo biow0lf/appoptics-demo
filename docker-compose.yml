@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  web:
+    build:
+      context: .
+    ports:
+     - "9292:9292"
+    volumes:
+     - ".:/app"
+    environment:
+      RACK_ENV: development
+      APPOPTICS_SERVICE_KEY: "adasdas:dadsad"
