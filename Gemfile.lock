@@ -12,6 +12,7 @@ GEM
       no_proxy_fix (~> 0.1.2, >= 0.1.2)
     builder (3.2.4)
     concurrent-ruby (1.1.6)
+    dotenv (2.7.5)
     dry-configurable (0.11.5)
       concurrent-ruby (~> 1.0)
       dry-core (~> 0.4, >= 0.4.7)
@@ -64,6 +65,7 @@ PLATFORMS
 
 DEPENDENCIES
   appoptics_apm
+  dotenv
   grape
   rack
 
